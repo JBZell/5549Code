@@ -253,7 +253,6 @@ private:
 
 		myRobot.TankDrive( -playerOne.GetRawAxis(1)/speedLimiter,-playerOne.GetRawAxis(5)/speedLimiter);
 
-		//Controls Speed of Intake
 		shooterBall->Set(playerTwo.GetRawAxis(3)/1.15);
 
 		/*	if (playerTwo.GetRawButton(10)){ //change led color to red
